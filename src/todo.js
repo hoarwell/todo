@@ -34,9 +34,9 @@ function paintToDo(text) {
     li.appendChild(delBtn);
     li.id = newId;
     toDoList.appendChild(li);
-    if(newId > 11){
+    if(newId > 8){
         var snd = new Audio('src/problem.mp3');
-        alert("finish your previous 11 toDos!");
+        alert("Finish your previous 8 things to do!");
         snd.play();
     }
     const toDoObj = {
