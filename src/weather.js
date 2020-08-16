@@ -2,10 +2,11 @@ const weatherBox = document.querySelector(".weatherBox");
 const weatherSpan = document.querySelector(".js-weather");
 const iconBox = document.querySelector(".iconBox");
 const API_KEY = '9a0073a226700978e96bb74160fd450a';
+const proxyurl = '‘https://cors-anywhere.herokuapp.com/';
 const COORDS = 'coords';
 
 function getWeather(lat, lon){
-    fetch(
+    fetch(proxyurl+
          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
     ).then(function(response){ //then을 이용해서 fetch 작업을 기다리고 나서 다음 function이 실행되게 해준다.
         return response.json();
