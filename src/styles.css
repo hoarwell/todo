@@ -99,7 +99,7 @@ input:focus::-webkit-input-placeholder {
 
 li:nth-of-type(1n+9) {
     display: none;
-} 
+}
 
 .buttonBox{
     position : absolute;
@@ -108,14 +108,13 @@ li:nth-of-type(1n+9) {
 }
 
 .js-darkmode{
-    width:60px;
-    height:30px;
-    background-color: none;
+    width:5%;
+    height:5%;
+    background-color: transparent;
     border: none;
     text-align: center;
     text-decoration: none;
-    font-size: 10px;
-    color: white;
+    font-size:30px;
     margin: 4px;
     cursor: pointer;
     border-radius: 10px;
