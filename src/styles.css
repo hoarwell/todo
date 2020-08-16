@@ -97,7 +97,7 @@ input:focus::-webkit-input-placeholder {
     border-radius: 10px;
 }
 
-li:nth-of-type(1n+12) {
+li:nth-of-type(1n+9) {
     display: none;
 } 
 
