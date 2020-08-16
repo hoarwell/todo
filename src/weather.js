@@ -6,7 +6,7 @@ const COORDS = 'coords';
 
 function getWeather(lat, lon){
     fetch(
-         `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
+         `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
     ).then(function(response){ //then을 이용해서 fetch 작업을 기다리고 나서 다음 function이 실행되게 해준다.
         return response.json();
     }).then(function(json){
