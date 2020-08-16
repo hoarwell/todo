@@ -1,0 +1,142 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.js-clock h1{
+    font-size : 85px;
+    text-align : center;
+    padding-top : 90px;
+}
+.nameInput {
+    text-align : center;
+    border : none;
+    width : 600px;
+    height : 70px;
+    font-size : 40px;
+    padding-bottom : 30px;
+    background-color:transparent;
+}
+
+form {
+    text-align : center;
+}
+
+.toDoInput{
+    text-align : center;
+    border : none;
+    width : 600px;
+    height : 60px;
+    font-size : 35px;
+    background-color:transparent;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  input:focus::-moz-placeholder {
+    color: transparent;
+  }
+  input:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+  input:focus::-ms-input-placeholder {
+    color: transparent;
+  }
+
+.js-greetings{
+    font-size : 45px;
+    text-align : center;
+    padding-bottom : 10px;
+    padding-top : 70px;
+}
+
+.weatherBox{
+    position : absolute;
+    top : 5%;
+    right: 5%;
+    font-size : 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.js-toDoList{
+    font-size : 30px;
+    text-align : center;
+    padding-bottom : 20px;
+    padding-top : 20px;
+    margin: 0px;
+}
+
+.js-toDoList > li {
+    list-style-type: none;
+    padding-bottom : 10px;
+    position: relative;
+    margin-bottom: 5px;
+    float:left; width:25%;
+}
+
+.js-toDoList > li > button {
+    width:40px;
+    height:40px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+li:nth-of-type(1n+12) {
+    display: none;
+} 
+
+.buttonBox{
+    position : absolute;
+    left : 5%;
+    bottom : 5%;
+}
+
+.js-darkmode{
+    width:100px;
+    height:40px;
+    background-color: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index : -1;
+    animation: fadeIn 0.7s linear;
+}
+

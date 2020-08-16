@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momontom</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+  <body>
+    <div class = "js-clock">
+        <h1>00:00</h1>
+    </div>
+    <div class = "weatherBox">
+        <div class = "iconBox"></div>
+        <span class = "js-weather"></span>
+    </div>
+    <p class = "js-greetings greetings"></p>
+    <form class = "js-form form">
+        <input class = nameInput type = "text" placeholder = "type your name here" />
+    </form>
+    <form class = "js-toDoForm toDoForm">
+        <input class = toDoInput type = "text" placeholder = "what are you going to do today?" />
+    </form>
+    <ul class = "js-toDoList">
+    </ul>
+    <div class = "buttonBox">
+        <button class  ="js-darkmode">Dark Mode</button>
+    </div>
+  </body>
+  <script src = "src/greeting.js"></script>
+  <script src = "src/clock.js"></script>
+  <script src = "src/todo.js"></script>
+  <script src = "src/weather.js"></script>
+  <script src = "src/background.js"></script>
+  <script src = "src/darkmode.js"></script>
+</html>
