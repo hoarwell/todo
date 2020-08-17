@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-function paintImage(imgNumber){
+function paintImage(){
     const image = new Image();
     const date = new Date();
     const hours = date.getHours();
