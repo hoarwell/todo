@@ -1,1 +1,1 @@
-todolist with vanilla javascript
+todolist using localStorage with vanilla javascript
